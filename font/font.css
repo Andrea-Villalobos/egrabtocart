@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'shopee_displayregular';
+    src: url('shopee2021-regular-webfont.woff2') format('woff2'),
+         url('shopee2021-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'shopee_2021extra_bold';
+    src: url('shopee2021-extrabold-webfont.woff2') format('woff2'),
+         url('shopee2021-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+}
+
+.centered-container {
+    display: grid;
+    place-items: center;
+}
